@@ -36,10 +36,10 @@ $(document).ready(function () {
         videoTile.title = tile.attr('data-video-title');
         videoTile.rating = parseFloat(tile.attr('data-video-rating'));
         videoTile.rated = tile.attr('data-video-rated');
-        videoTile.time = tile.attr('data-video-time');
+        videoTile.time = parseInt(tile.attr('data-video-time'), 10);
         videoTile.type = tile.attr('data-video-type');
         videoTile.category = tile.attr('data-video-category');
-        videoTile.date = tile.attr('data-video-date');
+        videoTile.date = parseInt(tile.attr('data-video-date'), 10);
         videoTile.classes = tile.attr('class'); // This is so we can remove all classes belonging to plugin and keep our own
         videoTile.onShelf = true; // Whether it's elm is in html or removed
         /**

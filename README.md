@@ -49,19 +49,19 @@ The video objects Movie and TvShow are written in Python, but they get their inf
         <station>ABC</station>
     </tv-show>
 ```
-In the JavaScript, I've made it possible for users to filter the html containers of each video by `title`, `rating` and `type`. The `title` and `rating` values, which are parsed from this `movies.xml` file by Python are also written as data-* attributes into the html containers and then tacked onto the JavaScript Object version of each video. If you want to create a new filter for another attribute such as `time`, all the information is already in a JavaScript object set up just for you! All you need to do is reference the JS variable `videotiles` which holds a copy of every video object Python created on the page, and references to their html and jQuery representation of the its `.video-tile` on the page.
+In the JavaScript, I've made it possible for users to filter the html containers of each video by `title`, `rating` and `type`. The `title` and `rating` values, which are parsed from this `movies.xml` file by Python are also written as data-* attributes into the html containers and then tacked onto the JavaScript Object version of each video. If you want to create a new filter for another attribute such as `time`, all the information is already in a JavaScript object set up just for you! All you need to do is reference the JS variable `videotiles` which holds a copy of every video object Python created on the page, and references to their html and jQuery representation of the its `.video-tile` on the page. Each JavaScript Video object has the following properties and methods.
 ```js
-category: "Drama"
-classes: "video-tile text-center white-panel"
-date: "2014"
-onShelf: true
-rated: "PG-13"
-rating: 7.5
-time: "101"
-title: "Still Alice"
-type: "movie"
-elm: ... // The HTMLElement of the videos .video-tile
-$:   ... // The jQuery object for this videos .video-tile (so you can use any jQuery method on it)
+category:      // str, comma seperated video categories eg: "Drama"
+classes:       // str, classList, this is needed for some tricky stuff
+date: "2014"   // int, year video was released
+onShelf: true  // bool, whether the .video-tile is still on the page
+rated: "PG-13" // str, Video rating
+rating: 7.5    // float, imdb.com rating
+time: "101"    // int, length in minutes
+title:         // str, Title of video
+type:          // str, "movie" or "tv-show"
+elm:           // HTMLElement, vanilla JS of HTML .video-tile
+$:             // jQuery object, jQuery ref to .video-tile (can use any jQuery method on it)
 removeVideo: function () {... // will remove the video-tile from grid if it is present
 appendVideo: function () {... // will return the html video-tile to grid only if not present
 ```
