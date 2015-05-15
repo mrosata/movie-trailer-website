@@ -26,7 +26,10 @@ To see the website in action, check out this [youtube video](https://www.youtube
  * [PyCharm IDE (Free!)](https://www.jetbrains.com/pycharm/download/) for the awesome syntax-highlighted editor.
  * [imdb.com](http://imdb.com) where I ctrl+c'ed all my movie information.
  * [Movie Poster Awards](http://www.impawards.com/) where the higher res movie poster were found.
+ * [youtube video](https://www.youtube.com/watch?v=Z6wOsNLxM3c) where the movie trailers live.
  * [Udacity Full Stack Nanodegree](http://udacity.com/course/nd004), for those who want to learn concepts from this. project.
  * [Pinterest style jQuery plugin](http://www.bootsnipp.com/snippets/featured/pinterest-like-responsive-grid)
+ * [Bootstrap](http://getbootstrap.com/)
+ * [jQuery](http://jquery.com)
  * [markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing.
 
