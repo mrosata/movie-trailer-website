@@ -1,0 +1,249 @@
+<collection type="media">
+
+    <tv-show title="Game of Thrones">
+        <date>10 May 2015</date>
+        <time>58</time>
+        <category>Adventure, Drama, Fantasy</category>
+        <rating>9.5</rating>
+        <rated>TV-MA</rated>
+        <story>In Meereen, Daenerys has to decide how to deal with the formers masters after the death of Ser Barristan Selmy and the injuries inflicted on Grey Worm. She decides to round up the heads of the 13 richest families in the city and introduce them to her dragons. Jorah Mormont and Tyrion Lannister approach the ancient city of Valerya and have an encounter with the Stone Men. One of them is infected. Tyrion sees something that is quite incredible. Sansa finally sees what has become of Theon, courtesy of Ramsay Bolton's jealous mistress. Ramsay is particularly cruel to Theon at a dinner, much to Roose Bolton's displeasure. At Castle Black, Jon Snow tries to convince Tormund Giantsbane to move his people south of the Wall and settle in lands that will be made available to them. Most of the men of the Watch object to the plan.</story>
+        <image>game_of_thrones_ver56.jpg</image>
+        <stars>Peter Dinklage, Lena Headey, Kit Harington</stars>
+        <season>5</season>
+        <episode>45 - Kill the Boy</episode>
+        <station>HBO</station>
+    </tv-show>
+
+    <tv-show title="Castle">
+        <date>11 May 2015</date>
+        <time>43</time>
+        <category>Comedy, Crime, Drama</category>
+        <rating>8.3</rating>
+        <rated>TV-14</rated>
+        <story>A death occurs in the woods and Castle becomes obsessed with the case because it reminds him of a pivotal event in his childhood. Beckett reaches a turning point in her life.</story>
+        <image>castle_ver6.jpg</image>
+        <stars>Nathan Fillion, Stana Katic, Susan Sullivan</stars>
+        <season>7</season>
+        <episode>23 - Hollander's Woods</episode>
+        <station>ABC</station>
+    </tv-show>
+
+    <tv-show title="Modern Family">
+        <date>13 May 2015</date>
+        <time>22s</time>
+        <category>Comedy</category>
+        <rating>9.7</rating>
+        <rated>TV-PG</rated>
+        <story>As Gloria tries to ruin Manny's sentimental life, Claire doubts about her professional career and Alex skips day</story>
+        <image>modern_family_ver11.jpg</image>
+        <stars>Ed O'Neill, Sofía Vergara, Julie Bowen</stars>
+        <season>6</season>
+        <episode>22 - Crying Out Loud</episode>
+        <station>ABC</station>
+    </tv-show>
+
+    <movie title="Still Alice">
+        <date>2014</date>
+        <time>101</time>
+        <category>Drama</category>
+        <rating>7.5</rating>
+        <rated>PG-13</rated>
+        <story>A linguistics professor and her family find their bonds tested when she is diagnosed with Alzheimer's Disease.</story>
+        <image>still_alice.jpg</image>
+        <stars>Julianne Moore, Alec Baldwin, Kristen Stewart</stars>
+        <youtube>ZrXrZ5iiR0o</youtube>
+    </movie>
+
+    <movie title="Mortdecai">
+        <date>2015</date>
+        <time>107</time>
+        <category>Action, Comedy</category>
+        <rating>5.5</rating>
+        <rated>R</rated>
+        <story>Juggling angry Russians, the British Mi5, and an international terrorist, debonair art dealer and part time rogue Charlie Mortdecai races to recover a stolen painting rumored to contain a code that leads to lost Nazi gold.</story>
+        <image>mortdecai_ver2.jpg</image>
+        <stars>Johnny Depp, Gwyneth Paltrow, Ewan McGregor</stars>
+        <youtube>aW_sfxUnbZA</youtube>
+    </movie>
+
+    <movie title="Blackhat">
+        <date>2015</date>
+        <time>133</time>
+        <category>Action, Crime, Drama</category>
+        <rating>5.4</rating>
+        <rated>R</rated>
+        <story>A furloughed convict and his American and Chinese partners hunt a high-level cybercrime network from Chicago to Los Angeles to Hong Kong to Jakarta.</story>
+        <image>blackhat.jpg</image>
+        <stars>Chris Hemsworth, Viola Davis, Wei Tang</stars>
+        <youtube>jZ1ZDlLImF8</youtube>
+    </movie>
+
+    <movie title="The Cobbler">
+        <date>2015</date>
+        <time>99</time>
+        <category>Comedy, Drama, Fantasy</category>
+        <rating>5.8</rating>
+        <rated>PG-13</rated>
+        <story>Max Simkin repairs shoes in the same New York shop that has been in his family for generations. Disenchanted with the grind of daily life, Max stumbles upon a magical heirloom that allows him to step into the lives of his customers and see the world in a new way. Sometimes walking in another man's shoes is the only way one can discover who they really are.</story>
+        <image>cobbler_ver2.jpg</image>
+        <stars>Adam Sandler, Dan Stevens, Steve Buscemi</stars>
+        <youtube>kMVGScC0vDA</youtube>
+    </movie>
+
+    <movie title="Tomorrowland">
+        <date>2015</date>
+        <time>130</time>
+        <category>Action, Adventure, Mystery</category>
+        <rating>8.4</rating>
+        <rated>PG</rated>
+        <story>Bound by a shared destiny, a teen bursting with scientific curiosity and a former boy-genius inventor embark on a mission to unearth the secrets of a place somewhere in time and space that exists in their collective memory. (Added Official After-movie rather then trailer!!)</story>
+        <image>tomorrowland_ver2.jpg</image>
+        <stars>George Clooney, Britt Robertson, Hugh Laurie</stars>
+        <youtube>NtDG-Cnj-pw</youtube>
+    </movie>
+
+    <movie title="Tracers">
+        <date>2015</date>
+        <time>94</time>
+        <category>Action, Drama, Thriller</category>
+        <rating>5.5</rating>
+        <rated>PG-13</rated>
+        <story>Wanted by the Chinese mafia, a New York City bike messenger escapes into the world of parkour after meeting a beautiful stranger.</story>
+        <image>tracers.jpg</image>
+        <stars>Taylor Lautner, Marie Avgeropoulos, Adam Rayner</stars>
+        <youtube>yqpfHeXqbQ8</youtube>
+    </movie>
+
+    <movie title="Extraterrestrial">
+        <date>2014</date>
+        <time>101</time>
+        <category>Horror, Sci-Fi</category>
+        <rating>5.0</rating>
+        <rated>NR</rated>
+        <story>A group of friends on a weekend trip to a cabin in the woods find themselves terrorized by alien visitors.</story>
+        <image>extraterrestrial_ver2.jpg</image>
+        <stars>Brittany Allen, Freddie Stroma, Jesse Moss</stars>
+        <youtube>https://www.youtube.com/watch?v=AtXj7ZmhPAg</youtube>
+    </movie>
+
+    <movie title="Just Before I Go">
+        <date>2013</date>
+        <time>95</time>
+        <category>Comedy, Drama</category>
+        <rating>6.7</rating>
+        <rated>R</rated>
+        <story>On the verge of giving up on life, a guy travels to his hometown to make amends.</story>
+        <image>just_before_i_go.jpg</image>
+        <stars>Seann William Scott, Olivia Thirlby, Garret Dillahunt</stars>
+        <youtube>LoGzbn_HVsA</youtube>
+    </movie>
+
+    <movie title="Beloved Sisters">
+        <date>2014</date>
+        <time>138</time>
+        <category>Drama, History, Romance</category>
+        <rating>6.3</rating>
+        <rated>NR</rated>
+        <story>The aristocratic sisters Charlotte and Caroline both fall in love with the controversial young writer and hothead Friedrich Schiller. Defying the conventions of their time, the sisters decide to share their love with Schiller. What begins playfully, almost as a game among the three of them, soon turns serious as it leads to the end of a pact.</story>
+        <image>die_geliebten_schwestern_ver2.jpg</image>
+        <stars>Hannah Herzsprung, Florian Stetter, Henriette </stars>
+        <youtube>ak3bE4-sxMY</youtube>
+    </movie>
+
+    <movie title="Magical Universe">
+        <date>2013</date>
+        <time>80</time>
+        <category>Documentary, Biography</category>
+        <rating>7.6</rating>
+        <rated>NR</rated>
+        <story>A documentarian strikes up a friendship with reclusive artist Al Carbee, whose Barbie-doll photography gains acclaim and interest over the course of this project's 10-year history.</story>
+        <image>magical_universe.jpg</image>
+        <stars>Al Carbee, Jeremy Workman, Astrid von Ussar</stars>
+        <youtube>vyzbbEGSw8s</youtube>
+    </movie>
+
+    <movie title="Mad Max Fury Road">
+        <date>2015</date>
+        <time>120</time>
+        <category>Action, Adventure, Sci-Fi, Thriller</category>
+        <rating>8.8</rating>
+        <rated>R</rated>
+        <story>In a stark desert landscape where humanity is broken, two rebels just might be able to restore order: Max, a man of action and of few words, and Furiosa, a woman of action who is looking to make it back to her childhood homeland.</story>
+        <image>mad_max_fury_road_ver15.jpg</image>
+        <stars>Tom Hardy, Charlize Theron, Nicholas Hoult, Zoë Kravitz</stars>
+        <youtube>hEJnMQG9ev8</youtube>
+    </movie>
+
+    <movie title="Pitch Perfect 2">
+        <date>2015</date>
+        <time>115</time>
+        <category>Comedy, Music</category>
+        <rating>7.2</rating>
+        <rated>PG-13</rated>
+        <story>After a humiliating command performance at Lincoln Center, the Barden Bellas enter an international competition that no American group has ever won in order to regain their status and right to perform.</story>
+        <image>pitch_perfect_two.jpg</image>
+        <stars>Anna Kendrick, Rebel Wilson, Hailee Steinfeld</stars>
+        <youtube>6bh4mvJ5jUg</youtube>
+    </movie>
+
+    <movie title="Good Kill">
+        <date>2015</date>
+        <time>102</time>
+        <category>Drama, Thriller</category>
+        <rating>6.3</rating>
+        <rated>R</rated>
+        <story>A family man begins to question the ethics of his job as a drone pilot.</story>
+        <image>good_kill_ver2.jpg</image>
+        <stars>Ethan Hawke, January Jones, Zoë Kravitz</stars>
+        <youtube>pcDB6OZgqzo</youtube>
+    </movie>
+
+    <movie title="The Connection">
+        <date>2015</date>
+        <time>135</time>
+        <category>Action, Crime, Thriller</category>
+        <rating>7.0</rating>
+        <rated>R</rated>
+        <story>A French police magistrate spends years trying to take down one of the country's most powerful drug rings.</story>
+        <image>la_french_ver2.jpg</image>
+        <stars>Jean Dujardin, Gilles Lellouche, Céline Sallette</stars>
+        <youtube>Dx41FbyvSMw</youtube>
+    </movie>
+
+    <movie title="Set Fire to the Stars">
+        <date>2015</date>
+        <time>97</time>
+        <category>Drama</category>
+        <rating>6.0</rating>
+        <rated>NR</rated>
+        <story>An aspiring poet in 1950s New York has his ordered world shaken when he embarks on a week-long retreat to save his hell raising hero, Dylan Thomas.</story>
+        <image>set_fire_to_the_stars.jpg</image>
+        <stars>Elijah Wood, Celyn Jones, Kelly Reilly</stars>
+        <youtube>OuGQ0m2F5C8</youtube>
+    </movie>
+
+    <movie title="Avengers: Age of Ultron">
+        <date>2015</date>
+        <time>141</time>
+        <category>Action, Adventure, Sci-Fi</category>
+        <rating>8.1</rating>
+        <rated>PG-13</rated>
+        <story>When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's Mightiest Heroes to stop the villainous Ultron from enacting his terrible plans.</story>
+        <image>avengers_age_of_ultron_ver25.jpg</image>
+        <stars>Robert Downey Jr., Chris Evans, Mark Ruffalo</stars>
+        <youtube>JAUoeqvedMo</youtube>
+    </movie>
+
+    <movie title="Hot Pursuit">
+        <date>2015</date>
+        <time>87</time>
+        <category>Action, Comedy</category>
+        <rating>4.7</rating>
+        <rated>PG-13</rated>
+        <story>An uptight and by-the-book cop tries to protect the outgoing widow of a drug boss as they race through Texas pursued by crooked cops and murderous gunmen.</story>
+        <image>hot_pursuit_ver4.jpg</image>
+        <stars>Reese Witherspoon, Sofía Vergara, Matthew Del </stars>
+        <youtube>86nRuz4YuPY</youtube>
+    </movie>
+
+</collection>
