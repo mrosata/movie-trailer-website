@@ -69,6 +69,8 @@ $(document).ready(function () {
         // push this video object into our Array of video-tiles
         tiles.push(videoTile);
     });
+    // Let's create a global variable for outer scopes that may want access to the videos
+    window.videotiles = tiles;
 
 
     /**
