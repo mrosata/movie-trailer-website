@@ -9,8 +9,8 @@
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:700,400' rel='stylesheet' type='text/css'>
 
-    <!-- Masonry
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>-->
+    <!-- Masonry -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -41,24 +41,13 @@
       </div>
     </div>
 
+    <!-- navigation  -->
+    {% include 'nav.html' %}
+
     <!-- Main Page Content -->
     {% block primary %}
 
     {% endblock %}
 
-    <footer class="container well well-md">
-        <div class="row">
-            <div class="col-sm-8">
-                <p>
-                    Movie Ratings, Star ratings, Synopsis, and cast information taken off of imdb.com. Images linked to from <a target="_blank" href="http://www.impawards.com/">Internet Movie Poster Awards</a> website. All video hosted by <a target="_blank" href="http://youtube.com">YouTube.com</a> and various YouTube subscribers.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p>
-                    Created By: <a href="mailto:mrosata1984@gmail.com">Michael Rosata</a> as part of @<a href="http://udacity.com/course/nd004">Udacity Full Stack Nanodegree</a>.
-                </p>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>

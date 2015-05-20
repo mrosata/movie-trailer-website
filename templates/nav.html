@@ -1,0 +1,87 @@
+<!-- TOP NAV  -->
+
+
+<div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="row row-in-nav">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header col-md-4 abs-wide">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1">
+                        <span class="sr-only">Videos Filtering Options</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">HOLLYWUdacity</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="collapse-1">
+                    <form class="navbar-form" role="search">
+                        <!-- The free-search -->
+                        <div class="form-group mobile-input col-md-3">
+                            <input type="text" class="form-control" name="video-title-search" placeholder="Search Video Titles">
+                        </div>
+
+                        <!-- Video Type Drop-down -->
+                        <div class="form-group mobile-input col-md-3">
+                            <select name="video-type" id="video-type-search" class="form-control">
+                                <option value="any">Tv & Movies</option>
+                                <option value="tv-show">Only Tv-Shows</option>
+                                <option value="movie">Only Movies</option>
+                            </select>
+                        </div>
+
+                        <!-- Range Slider for Star Ratings -->
+                        <div class="form-group mobile-input col-md-3 ratings-range-container">
+                            <label class="full-width">Star Rating:
+                                <input min="0" max="10" step=".1" type="range" name="video-rating-search"/>
+                            </label>
+                            <span id="starDisplay"></span>
+                        </div>
+
+                    </form>
+                     <div class="col-md-3 add-favorite">
+                        <a href="{{ url_for('add_movie') }}" role="button" class="btn btn-default pull-right">
+                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            <span class="sr-only">Add Movie</span>
+                        </a>
+                        <!-- TODO HERE SHOULD BE A SPACE BETWEEN BTN -->
+                        <a href="{{ url_for('main_page') }}" role="button" class="btn btn-default pull-right">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            <span class="sr-only">Main Page</span>
+                        </a>
+                        </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+
+ <!-- BOTTOM NAV     -->
+
+    
+    <nav class="navbar-fixed-bottom hidden-md hidden-lg">
+        <div class="container-fluid text-center">
+        <p>Created By: <a href="mailto:mrosata1984@gmail.com">Michael Rosata</a></p>
+    </div>
+    </nav>
+
+
+   <nav class="navbar-fixed-bottom hidden-sm hidden-xs">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Movie Ratings, Star ratings, Synopsis, and cast information taken off of imdb.com. Images linked to from <a target="_blank" href="http://www.impawards.com/">Internet Movie Poster Awards</a> website. All video hosted by <a target="_blank" href="http://youtube.com">YouTube.com</a> and various YouTube subscribers.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Created By: <a href="mailto:mrosata1984@gmail.com">Michael Rosata</a> as part of @<a href="http://udacity.com/course/nd004">Udacity Full Stack Nanodegree</a>.
+                </p>
+            </div>
+        </div>
+        </div>
+    </nav>

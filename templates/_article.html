@@ -1,0 +1,102 @@
+{% macro article(vid) %}
+            <!-- Grab the needed info from the Python Video objects -->
+            <article class="video-tile text-center white-panel" data-video-rating="{{ vid.Rated }}" data-video-rated="{{ vid.Rated }}" data-video-time="{{ vid.Runtime }}"
+                     data-video-type="{{ vid.Type }}" data-video-title="{{ vid.Title }}" data-video-category="{{ vid.Genre }}" data-video-date="{{ vid.Released }}"
+                     {% if vid.ytID %} data-trailer-youtube-id="{{ vid.ytID }}" data-toggle="modal" data-target="#trailer"{% endif %}>
+
+<!-- TODO IMAGE DOES NOT SHOW UP -->
+
+                <img src="{{ vid.Poster }}" width="220" height="342"/>
+                <h3 class="title">{{ vid.Title }}</h3>
+                <hr/>
+                <p>
+                {% if vid.add %}
+                
+                <a href="{{ url_for('add_this',imdbID=vid.imdbID) }}" type="button" class="btn btn-default">
+                            <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Add to Favorites List</span>
+                        </a>
+                {% endif %}
+                </p>
+                <hr/>
+                <p>
+                    {{ vid.Plot }}
+                </p>
+
+                <!-- My star ratings system -->
+                <div class="ratings">
+                    <span class="rating empty">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </span>
+                    <span class="rating stars" style="width: {{ vid.imdbRating * 23 + 19.5 }}px;">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </span>
+                </div>
+
+                <h5 class="float-rating">{{ vid.imdbRating }}</h5>
+            </article>
+{% endmacro %}
+
+
+<!-- just temporary to satisfy main view -->
+{% macro article_old(vid) %}
+  <!-- Grab the needed info from the Python Video objects -->
+            <article class="video-tile text-center white-panel" data-video-rating="{{ vid.rating }}" data-video-rated="{{ vid.rated }}" data-video-time="{{ vid.time }}"
+                     data-video-type="{{ vid.type }}" data-video-title="{{ vid.title }}" data-video-category="{{ vid.category }}" data-video-date="{{ vid.date }}"
+                     {% if vid.youtube %} data-trailer-youtube-id="{{ vid.youtube }}" data-toggle="modal" data-target="#trailer"{% endif %}>
+                <img src="{{ url_for('static', filename='images/' + vid.image) }}" width="220" height="342"/>
+                <h3 class="title">{{ vid.title }}</h3>
+                <hr/>
+                <p>
+                    {{ vid.story }}
+                </p>
+
+                <!-- My star ratings system -->
+                <div class="ratings">
+                    <span class="rating empty">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </span>
+                    <span class="rating stars" style="width: {{ vid.rating * 23 + 19.5 }}px;">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </span>
+                </div>
+
+                <h5 class="float-rating">{{ vid.rating }}</h5>
+            </article>
+{% endmacro %}
+

@@ -1,0 +1,36 @@
+{% extends "_layout.html" %}
+{% from '_article.html' import article with context %}
+
+{% block primary %}
+ 
+<div class="container">
+        <div class="col-md-3">
+        </div>
+    <form class="form" role="search" action="{{ url_for('add_movie') }}" method="POST">
+        <div class="form-group mobile-input col-md-3">
+            <input type="text" class="form-control" name="movie" placeholder="Search Video Title">
+        </div>
+          <!-- Video Type Drop-down -->
+        <div class="form-group mobile-input col-md-3">
+            <select name="type" id="video-type-search" class="form-control">
+                <option value="any">Tv & Movies</option>
+                <option value="tv-show">Only Tv-Shows</option>
+                <option value="movie">Only Movies</option>
+            </select>
+        </div>
+    </form>
+	<div class="col-md-3"></div>
+</div>
+
+{% if data %}
+
+ <div class="container">
+        <section id="videogrid">
+        {{ article(data) }}
+        </section>  <!-- /#videogrid -->
+</div>  <!-- /.container -->
+
+{% endif %}
+
+
+{% endblock primary %}
